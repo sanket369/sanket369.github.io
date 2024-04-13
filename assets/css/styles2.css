@@ -15,8 +15,8 @@
 }
 
 .skills__icon {
-    width: 10px; /* Adjust based on your preference */
-    height: 10px; /* Adjust based on your preference */
+    width: 20px; /* Adjust based on your preference */
+    height: 20px; /* Adjust based on your preference */
     object-fit: contain; /* Ensure the image fits within the specified dimensions */
-    margin-right: 5px; /* Add spacing between icon and text */
+    margin-right: 10px; /* Add spacing between icon and text */
 }
