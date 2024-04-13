@@ -10,6 +10,35 @@
         <link rel="stylesheet" href="assets/css/styles2.css"> <!-- Link to your CSS file -->
 
         <title>Portfolio website</title>
+
+        <!-- Add your styles inside the <style> block below -->
+        <style>
+            /* Style to display icons in two lines */
+            .skills__data {
+                display: flex; /* Use flexbox layout */
+                justify-content: center; /* Center align items horizontally */
+                flex-wrap: wrap; /* Allow items to wrap to the next line */
+                gap: 20px; /* Spacing between icons */
+            }
+
+            /* Style for each icon link */
+            .skills__data a {
+                display: inline-block; /* Display as inline-block to control width and height */
+                text-align: center; /* Center align icon */
+                width: 60px; /* Set width of each icon */
+                height: 60px; /* Set height of each icon */
+                line-height: 60px; /* Center icon vertically */
+            }
+
+            /* Style for icon images */
+            .skills__data img {
+                max-width: 100%; /* Ensure image does not exceed container width */
+                max-height: 100%; /* Ensure image does not exceed container height */
+            }
+        </style>
+
+
+
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -127,30 +156,27 @@
                             
                         </div>
 
-                        <div>
-                            <a href="assets/img/gazebo.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/gazebo.png" alt="Gazebo" width="60" height="60"/>
-                            </a>
+                        <div class="skills__data">
                             <a href="assets/img/webots.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/webots.png" alt="Webots" width="60" height="60"/>
+                                <img src="assets/img/webots.png" alt="Webots"/>
                             </a>
                             <a href="assets/img/ros.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/ros.png" alt="ROS" width="60" height="60"/>
+                                <img src="assets/img/ros.png" alt="ROS"/>
                             </a>
                             <a href="assets/img/ros2.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/ros2.png" alt="ROS2" width="60" height="60"/>
+                                <img src="assets/img/ros2.png" alt="ROS2"/>
                             </a>
                             <a href="assets/img/linux.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/linux.png" alt="Linux" width="60" height="60"/>
+                                <img src="assets/img/linux.png" alt="Linux"/>
                             </a>
                             <a href="assets/img/fusion360.jpg" target="_blank" rel="noreferrer">
-                                <img src="assets/img/fusion360.jpg" alt="Fusion 360" width="60" height="60"/>
+                                <img src="assets/img/fusion360.jpg" alt="Fusion 360"/>
                             </a>
                             <a href="assets/img/isaac.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/isaac.png" alt="Nvidia IsaacSim" width="60" height="60"/>
+                                <img src="assets/img/isaac.png" alt="Nvidia IsaacSim"/>
                             </a>
                             <a href="assets/img/vscode.png" target="_blank" rel="noreferrer">
-                                <img src="assets/img/vscode.png" alt="VS Code" width="60" height="60"/>
+                                <img src="assets/img/vscode.png" alt="VS Code"/>
                             </a>
                         </div>
 
