@@ -35,6 +35,31 @@
                 max-width: 100%; /* Ensure image does not exceed container width */
                 max-height: 100%; /* Ensure image does not exceed container height */
             }
+
+            .footer__copy {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+            }
+
+            .contact-info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            .contact-info-item {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+            }
+
+            .contact-info-item img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
         </style>
 
 
@@ -244,14 +269,29 @@
         </main>
 
         <!--===== FOOTER =====-->
+        <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Sanket</p>
             <div class="footer__social">
-                <a href="https://www.linkedin.com/in/sanket-khade-285594126/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/sanket369" class="footer__icon"><i class='bx bxl-github' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/sanket-khade-285594126/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/sanket369" class="footer__icon"><i class='bx bxl-github'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
             </div>
-            <p class="footer__copy">&#169; Sanket </p>
+            <div class="footer__contact">
+                <div class="footer__item">
+                    <i class="bx bx-phone"></i>
+                    <span class="footer__text">Contact: <a href="tel:+918149444932">8149444932</a></span>
+                </div>
+                <div class="footer__item">
+                    <i class="bx bx-envelope"></i>
+                    <span class="footer__text">Email: <a href="mailto:skhade369@gmail.com">skhade369@gmail.com</a></span>
+                </div>
+                <div class="footer__item">
+                    <i class="bx bx-map"></i>
+                    <span class="footer__text">Location: Pune</span>
+                </div>
+            </div>
+            <p class="footer__copy">&copy; Sanket</p>
         </footer>
 
 
