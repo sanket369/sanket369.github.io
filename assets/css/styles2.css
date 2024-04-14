@@ -31,7 +31,7 @@
 .work__videonew {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10;
     width: 50%;
     height: 50%;
     object-fit: cover; /* Ensure video covers the container */
