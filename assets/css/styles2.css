@@ -23,13 +23,7 @@
 /* Define square container with 16:9 aspect ratio (horizontal rectangle) */
 .square-container {
     position: relative;
-    width: 120px; /* Set width to match two images */
-    height: 120px; /* Set height to match two images */
+    width: 100%; /* Adjust width as needed */
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
     overflow: hidden;
-}
-
-.square-container video {
-    width: 100%; /* Ensure the video fills the container */
-    height: 100%; /* Ensure the video fills the container */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
