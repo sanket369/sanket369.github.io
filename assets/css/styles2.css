@@ -20,10 +20,10 @@
     object-fit: contain; /* Ensure the image fits within the specified dimensions */
     margin-right: 10px; /* Add spacing between icon and text */
 }
-/* Custom class for square aspect ratio container */
+/* Define square container with 16:9 aspect ratio (horizontal rectangle) */
 .square-container {
     position: relative;
     width: 100%; /* Adjust the width as needed */
-    padding-top: 100%; /* Create a square aspect ratio (1:1) */
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
     overflow: hidden;
 }
