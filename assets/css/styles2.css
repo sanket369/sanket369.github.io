@@ -23,7 +23,8 @@
 /* Define square container with 16:9 aspect ratio (horizontal rectangle) */
 .square-container {
     position: relative;
-    width: 100%; /* Adjust the width as needed */
+    width: 100%; /* Adjust width as needed */
+    height: 0;
     padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
     overflow: hidden;
 }
