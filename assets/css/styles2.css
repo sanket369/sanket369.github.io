@@ -30,10 +30,10 @@
 
 
 .work__video-containernew {
-    position: relative;
+    position: absolute;
     width: 100%; /* Adjust width as needed */
     padding-bottom: 75%; /* Aspect ratio: 16:9 (adjust as needed) */
-    transform: translate(-50%, -50%);
+    transform: translate(50%,50%);
     overflow: hidden;
 }
 
