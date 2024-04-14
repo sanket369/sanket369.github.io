@@ -27,3 +27,12 @@
     padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
     overflow: hidden;
 }
+
+.work__videonew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Ensure video covers the container */
+}
