@@ -31,9 +31,9 @@
 
 .work__videonew {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -25%);
+    top: 30%;
+    left: 30%;
+    transform: translate(-15%, -15%);
     width: 100%; /* Adjust video width as needed */
     height: auto; /* Maintain aspect ratio */
     max-height: 100%; /* Ensure video doesn't exceed container height */
