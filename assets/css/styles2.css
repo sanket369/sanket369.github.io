@@ -34,6 +34,7 @@
     width: 100%; /* Set the width to 100% of the parent container */
     max-width: 800px; /* Set a maximum width for the container */
     margin: 0 auto; /* Center the container horizontally */
+    margin-bottom: 20px; /* Add bottom margin for spacing between containers */
 }
 
 /* Style for the video element within the container */
