@@ -33,7 +33,7 @@
 .video-container {
     width: 100%; /* Set the width to 100% of the parent container */
     max-width: 800px; /* Set a maximum width for the container */
-    margin: 0 auto 30px; /* Center the container horizontally */
+    margin: 0 auto 50px; /* Center the container horizontally */
 }
 
 /* Style for the video element within the container */
