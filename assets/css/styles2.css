@@ -1,7 +1,7 @@
 .work__video-container {
     position: relative;
     width: 100%; /* Adjust width as needed */
-    padding-bottom: 90%; /* Aspect ratio: 16:9 (adjust as needed) */
+    padding-bottom: 75%; /* Aspect ratio: 16:9 (adjust as needed) */
     overflow: hidden;
 }
 
