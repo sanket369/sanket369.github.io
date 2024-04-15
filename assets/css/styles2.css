@@ -29,4 +29,19 @@
 }
 
 
+/* Style for the video container */
+.video-container {
+    width: 100%; /* Set the width to 100% of the parent container */
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for the video element within the container */
+.video-container video {
+    width: 100%; /* Make the video fill the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the video is displayed as a block element */
+}
+
+
 
