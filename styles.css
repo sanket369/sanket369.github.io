@@ -1,10 +1,9 @@
 /* Responsive video container */
 .work__video-container {
     position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* Aspect ratio: 16:9 */
+    width: 100%; /* Adjust width as needed */
+    padding-bottom: 56.25%; /* Aspect ratio: 16:9 (adjust as needed) */
     overflow: hidden;
-    margin-bottom: 20px; /* Space between video containers */
 }
 
 .work__video {
@@ -14,114 +13,19 @@
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure video covers the container */
-    border-radius: 10px; /* Optional: Add border radius for rounded corners */
 }
 
 /* Optional: Media query for responsiveness on smaller screens */
 @media screen and (max-width: 768px) {
     .work__video-container {
-        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
     }
 }
 
 .skills__icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    margin-right: 10px;
-}
-
-/* NVIDIA logo specific styling */
-.nvidia-icon {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 40px; /* Adjust based on your preference */
+    height: 40px; /* Adjust based on your preference */
     object-fit: contain; /* Ensure the image fits within the specified dimensions */
+    margin-right: 10px; /* Add spacing between icon and text */
 }
 
-/* General styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Link styles */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Button styles */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
-
-/* Footer styles */
-.footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer__title {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.footer__social {
-    margin-bottom: 20px;
-}
-
-.footer__icon {
-    font-size: 24px;
-    margin: 0 10px;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-.footer__icon:hover {
-    color: #007BFF;
-}
-
-.footer__contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer__item {
-    display: flex;
-    align-items: center;
-    margin: 5px 20px;
-}
-
-.footer__item i {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.footer__text a {
-    color: #007BFF;
-    transition: color 0.3s ease;
-}
-
-.footer__text a:hover {
-    color: #0056b3;
-}
-
-/* Accessibility styles */
-a:focus, .button:focus, .footer__icon:focus {
-    outline: 2px solid #007BFF;
-    outline-offset: 2px;
-}
