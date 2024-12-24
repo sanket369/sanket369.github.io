@@ -69,24 +69,27 @@
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Sanket (site under development)</a>
-                </div>
+            <div>
+                <a href="#" class="nav__logo">Sanket (site under development)</a>
+            </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
             </nav>
+            <div style="position: absolute; top: 30px; left: 10px;">
+                <img src="assets/img/robots/3d_robot_2.jpg" alt="Corner Image" style="width: 120px; height: auto; border-radius: 10px;">
+            </div>
         </header>
 
         <main class="l-main">
@@ -122,7 +125,8 @@
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
-                    <div class="about__img">
+                    <div class="about__img" style="position: relative; display: flex; justify-content: space-between;">
+                        <img src="assets/img/robots/hi_robot.jpg" alt="New Image" data-tilt style="margin-left: 40px; width: auto; height: 100px; margin-top: 170px;" />
                         <img src="assets/img/about.jpg" alt="headshot image" data-tilt />
                     </div>
 
@@ -215,8 +219,8 @@
                         </div>
 
                     </div>
-                    <div class="work__video-container">
-                        <video autoplay loop muted playsinline class="work__video">
+                    <div class="work__video-container" style="height: 100%; overflow: hidden; border-radius: 10px;">
+                        <video autoplay loop muted playsinline class="work__video" style="height: 100%; border-radius: 10px; object-fit: cover;">
                             <source src="assets/img/collab.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -246,17 +250,17 @@
                     <a href="" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <!-- <a href="" class="work__img">
                         <img src="assets/img/work3.jpg" alt="">
-                    </a>
+                    </a> -->
                     <a href="" class="work__img">
                         <img src="assets/img/work4.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <!-- <a href="" class="work__img">
                         <img src="assets/img/work5.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="assets/img/work6.jpg" alt=""> -->
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work7.jpg" alt="">
@@ -265,15 +269,24 @@
                         <img src="assets/img/cep.jpg" alt="">
                     </a>
 
-                    <div class="work__video-container">
-                        <video autoplay loop muted playsinline class="work__video">
+                    <div class="work__video-container" style="overflow: hidden; border-radius: 10px;">
+                        <video autoplay loop muted playsinline class="work__video" style="border-radius: 10px;">
                             <source src="assets/img/arm.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                    <div class="work__video-container">
-                        <video autoplay loop muted playsinline class="work__video">
+                    <div class="work__video-container" style="overflow: hidden; border-radius: 10px;">
+                        <video autoplay loop muted playsinline class="work__video" style="border-radius: 10px;">
                             <source src="assets/img/swrmm.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <a href="" class="work__img">
+                        <img src="assets/img/acrux_diadem.jpeg" alt="">
+                    </a>
+                    <div class="work__video-container" style="overflow: hidden; border-radius: 10px;">
+                        <video autoplay loop muted playsinline class="work__video" style="border-radius: 10px;">
+                            <source src="assets/img/acrux.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -311,28 +324,43 @@
                 </video>
             </div> -->
 
-            <div class="video-container">
-                <video autoplay loop muted playsinline >
+            <div class="video-container" style="overflow: hidden; border-radius: 10px;">
+                <video autoplay loop muted playsinline style="border-radius: 10px;">
                     <source src="assets/img/Capture_colab.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
 
-            <div class="video-container">
-                <video autoplay loop muted playsinline >
+            <div class="video-container" style="overflow: hidden; border-radius: 10px;">
+                <video autoplay loop muted playsinline style="border-radius: 10px;">
                     <source src="assets/img/Post_arm.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
 
-
-            <div class="video-container">
-                <video autoplay loop muted playsinline >
+            <div class="video-container" style="overflow: hidden; border-radius: 10px;">
+                <video autoplay loop muted playsinline style="border-radius: 10px;">
                     <source src="assets/img/Sanket_Isaac.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
+            <!--===== ACHIEVEMENTS =====-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section-title">Achievements</h2>
 
+                <div class="achievements__container bd-grid">
+                    <div class="achievement">
+                        <h3 class="achievement__title"></h3>
+                        <p class="about__text"><strong>Presented as Key Speaker at ROSCon India 2023, discussing swarm technologies in fleet management.</strong></p>
+                    </div>
+
+                    <div class="achievement__images" style="display: flex; justify-content: space-around; margin-top: 20px;">
+                        <img src="assets/img/roscon.jpeg" alt="Achievement 1" class="achievement__img" style="width: 30%; margin-right: 10px; border-radius: 10px;">
+                        <img src="assets/img/roscon2.jpeg" alt="Achievement 2" class="achievement__img" style="width: 30%; margin-right: 10px; border-radius: 10px;">
+                        <img src="assets/img/roscon3.jpeg" alt="Achievement 3" class="achievement__img" style="width: 30%; border-radius: 10px;">
+                    </div>
+                </div>
+            </section>
 
 
             <!--===== CONTACT =====-->
@@ -351,30 +379,68 @@
         </main>
 
         <!--===== FOOTER =====-->
-        <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Sanket</p>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/sanket-khade-285594126/" class="footer__icon"><i class='bx bxl-linkedin' style='font-size: 40px;'></i></a>
-                <a href="https://github.com/sanket369" class="footer__icon"><i class='bx bxl-github' style='font-size: 40px;'></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' style='font-size: 40px;'></i></a>
+            <div class="footer__social"></div>
+            <a href="https://www.linkedin.com/in/sanket-khade-285594126/" class="footer__icon"><i class='bx bxl-linkedin' style='font-size: 40px;'></i></a>
+            <a href="https://github.com/sanket369" class="footer__icon"><i class='bx bxl-github' style='font-size: 40px;'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram' style='font-size: 40px;'></i></a>
             </div>
             <div class="footer__contact">
-                <div class="footer__item">
-                    <i class="bx bx-phone"></i>
-                    <span class="footer__text">Contact: <a href="tel:+918149444932">8149444932</a></span>
-                </div>
-                <div class="footer__item">
-                    <i class="bx bx-envelope"></i>
-                    <span class="footer__text">Email: <a href="mailto:skhade369@gmail.com">skhade369@gmail.com</a></span>
-                </div>
-                <div class="footer__item">
-                    <i class="bx bx-map"></i>
-                    <span class="footer__text">Location: Pune</span>
-                </div>
+            <div class="footer__item">
+                <i class="bx bx-phone"></i>
+                <span class="footer__text">Contact: <a href="tel:+918149444932">8149444932</a></span>
+            </div>
+            <div class="footer__item">
+                <i class="bx bx-envelope"></i>
+                <span class="footer__text">Email: <a href="mailto:skhade369@gmail.com">skhade369@gmail.com</a></span>
+            </div>
+            <div class="footer__item">
+                <i class="bx bx-map"></i>
+                <span class="footer__text">Location:</span>
+            </div>
+            </div>
+            <div class="footer__animation">
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_5ngs2ksb.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
             </div>
             <p class="footer__copy">&copy; Sanket</p>
+
+            <!-- Add this element where you want to display the animated images -->
+            <div style="display: flex; justify-content: center;">
+                <img id="animated-image" src="assets/img/robots/robo1.png" alt="Animated Image" style="width: 10%; height: auto; border-radius: 10px; margin-top: 50px;" />
+            </div></div>
+
+            <div style="position: fixed; bottom: 10px; right: 10px;">
+                <img src="assets/img/robots/3d_robot.jpg" alt="Corner Image" style="width: 100px; height: auto; border-radius: 10px;">
+            </div>
+
         </footer>
+
+        <!-- Lottie Animation Script -->
+        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+
+        <!-- Add the following script to create an image animation -->
+        <script>
+            const images = [
+            'assets/img/robots/robo1.png',
+            'assets/img/robots/robo2.png',
+            'assets/img/robots/robo3.png',
+            'assets/img/robots/robo4.png',
+            'assets/img/robots/robo5.png',
+            'assets/img/robots/robo6.png',
+            ];
+
+            let currentIndex = 0;
+
+            function showNextImage() {
+            const imgElement = document.getElementById('animated-image');
+            imgElement.src = images[currentIndex];
+            currentIndex = (currentIndex + 1) % images.length;
+            }
+
+            setInterval(showNextImage, 300); // Change image every 0.3 second
+        </script>
+
 
 
         <!--===== SCROLL REVEAL =====-->
